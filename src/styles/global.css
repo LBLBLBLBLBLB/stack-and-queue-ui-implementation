@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #001f3f;
+  --red: #FF4136;
+  --green: #3D9970;
+  --white: #FFF;
+}
+
+html {
+  font-size: 62.5%;
+}

@@ -1,0 +1,18 @@
+.button {
+	border: none;
+	color: white;
+	background-color: var(--red);
+	width: 10rem;
+	height: 4rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 1rem;
+	font-size: 1.4rem;
+	transition: all 0.3s;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.button:hover {
+	background-color: var(--green);
+}
