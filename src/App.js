@@ -17,15 +17,14 @@ const App = () => {
   }
 
   const handlePop = () => {
+    let tempArray = [...arrValues];
     if (selected === '') {
       return;
     }
     if (selected === 'stack') {
-      let tempArray = [...arrValues];
       tempArray.pop();
       setArrValues(tempArray);
     } else {
-      let tempArray = [...arrValues];
       tempArray.shift();
       setArrValues(tempArray);
     }
